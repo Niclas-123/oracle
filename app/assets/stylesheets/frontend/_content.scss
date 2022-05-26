@@ -1,0 +1,43 @@
+.content {
+  text-align: center;
+
+  &__stage {
+    display: flex;
+    height: 330px;
+    width: 100%;
+    margin-top: 10%;
+  }
+
+  &__container {
+    height: 330px;
+    width: 330px;
+    margin: 0 auto;
+    position: relative;
+    transform-origin: bottom;
+    align-self: flex-end;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+  }
+
+  &__orakel {
+    display: block;
+    position: relative;
+    width: 100%;
+  }
+
+  .bounce {
+    animation-name: bounce;
+    animation-timing-function: ease;
+  }
+
+  @keyframes bounce {
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(-50px); }
+    100% { transform: translateY(0); }
+  }
+
+  &__fragen {
+    margin-top: 0;
+  }
+}
+

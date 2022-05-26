@@ -1,1 +1,9 @@
-<h1>Wer hat etwas getan?</h1>
+<section class="content">
+  <div class="content__stage">
+    <div class="content__container bounce">
+      <%= image_tag 'orakel.png', class: "content__orakel" %>
+    </div>
+  </div>
+  <h1 class="content__fragen">Bei welcher Angelegenheit darf ich euch helfen?</h1>
+  <%= link_to "Bitte hilf mir, oh großes Orakel", denken_path, class: "primary-button" %>
+</section>

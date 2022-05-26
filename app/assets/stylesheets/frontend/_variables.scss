@@ -37,3 +37,9 @@
   --step-7: clamp(4.77rem, calc(2.56rem + 11.03vw), 10.28rem);
   --step-8: clamp(5.96rem, calc(2.86rem + 15.49vw), 13.71rem);
 }
+
+:root {
+  --primary: #FF9300;
+  --secondary: #C7594B;
+  --accent: #932191;
+}
