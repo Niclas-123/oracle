@@ -6,8 +6,10 @@
   </div>
   <div class="typewriter-container typewriter-container__home">
     <div class="typewriter">
-      <p class="subtitles__fragenm">Bei welcher Angelegenheit darf ich euch helfen?</p>
+      <p class="subtitles__fragenm" data-controller="speech"></p>
     </div>
   </div>
-  <%= link_to "Bitte hilf mir, oh großes Orakel", denken_path, class: "primary-button" %>
+  <div class="arrow-link">
+    <%= show_svg("arrow-right-thin.svg")%>
+  </div>
 </section>
