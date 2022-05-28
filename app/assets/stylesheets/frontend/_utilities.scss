@@ -1,0 +1,15 @@
+.subtitles {
+  color: #A9A9A9;
+  text-transform: uppercase;
+  font-style: italic;
+
+  &__home {
+    font-size: 0.88vw;
+  }
+}
+
+.whole-page-link {
+  position: absolute;
+  height: 100vh;
+  width: 100vh;
+}
