@@ -12,7 +12,7 @@ html {
 }
 
 .purple-container {
-  background: url("background.jpg");
+  background: url("background-black.jpg");
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -23,7 +23,6 @@ html {
 .main-container {
   max-width: 1600px;
   position: relative;
-  padding-bottom: var(--space-l);
   overflow: hidden;
 }
 

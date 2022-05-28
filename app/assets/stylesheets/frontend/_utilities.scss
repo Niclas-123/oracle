@@ -6,10 +6,12 @@
   &__home {
     font-size: 0.88vw;
   }
+
+  &__fragen {
+    font-size: var(--step-3);
+  }
 }
 
-.whole-page-link {
-  position: absolute;
-  height: 100vh;
-  width: 100vh;
+.arrow-link {
+  fill: white;
 }
