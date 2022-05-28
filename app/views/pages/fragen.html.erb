@@ -1,4 +1,4 @@
-<section class="content purple-container">
+<section class="content purple-container" data-controller="speech">
   <div class="content__stage">
     <div class="content__container bounce">
       <%= image_tag 'orakel.png', class: "content__orakel" %>
@@ -6,10 +6,10 @@
   </div>
   <div class="typewriter-container typewriter-container__home">
     <div class="typewriter">
-      <p class="subtitles__fragenm" data-controller="speech"></p>
+      <p class="subtitles__fragenm" data-speech-target="text"></p>
     </div>
   </div>
-  <div class="arrow-link">
+  <div class="arrow-link" data-speech-target="next_button">
     <%= show_svg("arrow-right-thin.svg")%>
   </div>
 </section>
