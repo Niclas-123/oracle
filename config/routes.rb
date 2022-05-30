@@ -3,4 +3,7 @@ Rails.application.routes.draw do
 
   get "/fragen", to: "pages#fragen"
   get "/denken", to: "pages#denken"
+  get "/antwort", to: "pages#antwort"
+
+  resources :questions
 end

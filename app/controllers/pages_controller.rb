@@ -3,5 +3,9 @@ class PagesController < ApplicationController
   end
 
   def fragen
+    @question = Question.new
+  end
+
+  def antwort
   end
 end

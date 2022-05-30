@@ -2,6 +2,33 @@
   background-color: var(--primary);
   padding: var(--space-xs) var(--space-m);
   border-radius: var(--space-s);
-  display: inline-block;
+  border: none;
+  display: block;
   text-transform: uppercase;
+  cursor: pointer;
+}
+
+.primary-button:hover {
+  color: white;
+}
+
+.form-container {
+  width: 60vw;
+  margin: var(--space-m) auto;
+
+  textarea {
+    width: 100%;
+    border: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    resize: none;
+
+    padding: var(--space-xs);
+    margin-bottom: 20px;
+  }
+
+  &__button {
+    margin: 0 auto;
+  }
 }

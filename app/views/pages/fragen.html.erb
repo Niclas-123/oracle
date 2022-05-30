@@ -6,10 +6,18 @@
   </div>
   <div class="typewriter-container typewriter-container__home">
     <div class="typewriter">
-      <p class="subtitles__fragenm" data-speech-target="text"></p>
+      <p class="subtitles__fragen" data-speech-target="text"></p>
     </div>
   </div>
-  <div class="arrow-link" data-speech-target="next_button">
+  <div class="arrow-link" data-speech-target="next_button" data-action="click->speech#nextText">
     <%= show_svg("arrow-right-thin.svg")%>
   </div>
+
+  <%= form_with(model: @question) do |form| %>
+    <div class="form-container">
+      <%= form.text_area :frage %>
+      <br>
+      <%= form.submit "Frag das Orakel", data: { turbo: false }, class: "primary-button form-container__button" %>
+    </div>
+  <% end %>
 </section>

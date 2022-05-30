@@ -1,18 +1,12 @@
 <section class="content purple-container" data-controller="speech">
   <div class="content__stage">
     <div class="content__container bounce">
-      <%= image_tag "denken.png", class: "content__orakel" %>
+      <%= image_tag "orakel.png", class: "content__orakel" %>
     </div>
   </div>
     <div class="typewriter-container typewriter-container__home">
     <div class="typewriter">
-      <p class="subtitles__fragen" data-speech-target="text"></p>
+      <p class="subtitles__antwort" data-speech-target="text"></p>
     </div>
   </div>
 </section>
-
-<script>
-    var timer = setTimeout(function() {
-        window.location='http://localhost:3000/antwort'
-    }, 5000);
-</script>

@@ -8,7 +8,13 @@
   }
 
   &__fragen {
-    font-size: var(--step-3);
+    font-size: var(--step-2);
+    line-height: var(--step-3);
+  }
+
+  &__antwort {
+    font-size: var(--step-1);
+    line-height: var(--step-3);
   }
 }
 
